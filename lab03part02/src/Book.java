@@ -10,6 +10,12 @@ public class Book{
 	
 	private String genre;
 	
+	public Book(){
+		
+		setBookID();
+		
+	}
+	
 	public Book(String bookTitle, Person author, Date publicationDate, String genre){
 		
 		setBookID();
